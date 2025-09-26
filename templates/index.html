@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Golf Team Creator</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Golf Team Creator</h1>
+
+    <div class="card">
+      <form id="player-form">
+        <h2>Select Players:</h2>
+        {% for player in players %}
+          <label>
+            <input type="checkbox" name="player" value="{{ player.name }}" data-handicap="{{ player.handicap }}">
+            {{ player.name }} ({{ player.handicap }})
+          </label><br>
+        {% endfor %}
+
+        <h3>Number of Teams:</h3>
+        <select id="num-teams">
+          <option value="2" selected>2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select><br><br>
+
+        <button type="button" id="create-btn">Create Teams</button>
+      </form>
+    </div>
+
+    <div id="results"></div>
+
+    <p><a href="/roster">⚙ Manage Roster</a></p>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
