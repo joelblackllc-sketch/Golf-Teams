@@ -20,6 +20,18 @@
     "handicap": 7
   },
   {
+    "name": "Dr. Paul",
+    "handicap": 4
+  },
+  {
+    "name": "James B",
+    "handicap": 6
+  },
+  {
+    "name": "Jimmy Y",
+    "handicap": 7
+  },
+  {
     "name": "Joe C",
     "handicap": 9
   },
@@ -56,8 +68,16 @@
     "handicap": 7
   },
   {
+    "name": "Mike P",
+    "handicap": 2
+  },
+  {
     "name": "Phil H",
     "handicap": 7
+  },
+  {
+    "name": "Ryan R",
+    "handicap": 1
   },
   {
     "name": "Shannon K",
@@ -81,7 +101,7 @@
   },
   {
     "name": "Trevor S",
-    "handicap": 6
+    "handicap": 4
   },
   {
     "name": "Tyler D",
