@@ -12,6 +12,10 @@
     "handicap": 5
   },
   {
+    "name": "Cutter",
+    "handicap": 7
+  },
+  {
     "name": "David W",
     "handicap": 4
   },
@@ -26,6 +30,10 @@
   {
     "name": "James B",
     "handicap": 6
+  },
+  {
+    "name": "Jay P",
+    "handicap": 10
   },
   {
     "name": "Jimmy Y",
@@ -66,6 +74,14 @@
   {
     "name": "Kris G",
     "handicap": 7
+  },
+  {
+    "name": "Lonny H",
+    "handicap": 7
+  },
+  {
+    "name": "Michael G",
+    "handicap": 10
   },
   {
     "name": "Mike P",
